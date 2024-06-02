@@ -1,0 +1,68 @@
+:root{
+--main_color : #f4d04e
+}
+
+body{
+    background-color: var(--main_color) !important;
+}
+
+.content{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+   height: 410px;
+   border: 1px solid black;
+   border-radius: 15px;
+   box-shadow: 5px 5px #000
+}
+.card img{
+    padding: 20px;
+    border-radius: 30px;
+}
+.card .learning{
+    background-color: var(--main_color);
+    color: black;
+    width: 30%;
+    margin-left: 20px;
+    padding: 1px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.card p{
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.card .title{
+    margin-left: 5px;
+    font-size: 18px;
+    font-weight: bold
+}
+.card .title:hover{
+    color: var(--main_color);
+    cursor: pointer;
+}
+.card .text{
+    margin-left: 5px;
+    font-size: 13px;
+    color: #aaa6a6;
+}
+.card .footer{
+    margin-left: 5px;
+    display: flex;
+    justify-content: start;
+    margin-top: 15px;
+}
+.card .footer img{
+    width: 10%;
+    padding: 0;
+}
+.card .footer .name{
+    font-weight: bold;
+}
